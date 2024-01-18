@@ -39,6 +39,8 @@ target_link_libraries(
         Qt6::Test
 )
 
+add_test(tests tests)
+
 if (WIN32 AND BUILD_SHARED_LIBS)
     add_custom_command(
             TARGET tests

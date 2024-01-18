@@ -36,4 +36,5 @@ cmake-build-*/
 .idea
 
 # Project Related
-**/Build/**
+**/build/**
+**/Testing/**
